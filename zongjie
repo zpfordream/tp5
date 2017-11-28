@@ -1,0 +1,1 @@
+1. 在application中，不能建一个common模块，用于走url的访问，因为tp规定他是通用的，只能走别的模块的调用，见例子，use 处必须加入as commonIndex
