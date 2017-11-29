@@ -24,4 +24,5 @@ class Index
         echo "这是admin的模块，测试读取的配置文件";
         var_dump(config::get());
     }
+
 }

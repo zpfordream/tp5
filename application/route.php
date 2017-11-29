@@ -17,5 +17,6 @@ return [
         ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
         ':name' => ['index/hello', ['method' => 'post']],
     ],
+    'peizhi'  =>  'admin/index/peizhi',//重写了一下路由规则，url中出现peizhi，则转向admin/index/peizhi
 
 ];

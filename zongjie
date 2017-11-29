@@ -1,1 +1,3 @@
 1. 在application中，不能建一个common模块，用于走url的访问，因为tp规定他是通用的，只能走别的模块的调用，见例子，use 处必须加入as commonIndex
+
+2. http://127.0.0.1/thinkphp5/public/index.php/admin/index/index，现在入口文件index.php已经可以省略掉了，一是需要http.conf打开rewrire，一个是需要入口文件同目录下.htacess配置相关内容

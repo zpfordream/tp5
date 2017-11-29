@@ -15,3 +15,6 @@
 define('APP_PATH', __DIR__ . '/../application/');
 // 加载框架引导文件
 require __DIR__ . '/../thinkphp/start.php';
+
+
+//在公司配置好虚拟环境了 http://think.com/   就是http://127.0.0.1/thinkphp5/public/index1.php
