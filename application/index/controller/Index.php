@@ -1,6 +1,7 @@
 <?php
 namespace app\index\controller;
 use app\common\controller\Index as commonIndex ;
+use think\config;
 
 class Index
 {
@@ -15,7 +16,11 @@ class Index
         echo "<br>";
 
         $common = new commonIndex();
-
         echo $common->index();
+    }
+
+    public function peizhi(){
+        echo "这是index的模块，测试读取的配置文件";
+        var_dump(config::get());
     }
 }
